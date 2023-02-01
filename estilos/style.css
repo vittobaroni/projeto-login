@@ -31,8 +31,8 @@ main{
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 270px;
+    height: 520px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
 
@@ -98,5 +98,7 @@ form > a.botao > span {
 }
 form > a.botao:hover{
     background-color:rgb(125, 216, 186)
-    
+}
+form input[type=submit] {
+    margin-bottom: 10px;
 }
